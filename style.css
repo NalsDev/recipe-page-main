@@ -94,10 +94,24 @@ li{
   .container{
     width:374px;
     border-radius:0px;
+    padding:0px;
+  }
+
+  body{
+    margin:0px;
   }
 
   .image-class{
     width:374px;
     border-radius:0px;
+    margin-bottom:0px;
+  }
+
+  .mobile-class{
+    padding:35px;
+  }
+
+  h1{
+    margin-top:-5px;
   }
 }
