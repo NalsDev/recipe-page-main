@@ -2,6 +2,12 @@ body{
   background-color:hsl(30, 54%, 90%);
 }
 
+main{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .container{
   background-color:white;
   display:inline-block;
@@ -82,4 +88,16 @@ li{
 
 .value-class p{
   width:50%;
+}
+
+@media only screen and (max-width:375px) {
+  .container{
+    width:374px;
+    border-radius:0px;
+  }
+
+  .image-class{
+    width:374px;
+    border-radius:0px;
+  }
 }
