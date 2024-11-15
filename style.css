@@ -5,6 +5,9 @@ body{
 .container{
   background-color:white;
   display:inline-block;
+  width:650px;
+  padding:35px;
+  border-radius:20px;
 }
 
 h1, h2{
@@ -30,5 +33,11 @@ h3{
 
 .image-class{
   width:650px;
+  border-radius:10px;
+}
+
+.container2{
+  background-color:hsl(330, 100%, 98%);
+  padding: 4px 25px 10px 25px;
   border-radius:10px;
 }
